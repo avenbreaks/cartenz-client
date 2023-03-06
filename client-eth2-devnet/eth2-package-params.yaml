@@ -1,0 +1,51 @@
+{
+    "participants": [
+        {
+            "el_client_type": "geth",
+
+            "el_client_image": "ethereum/client-go:latest",
+
+            "el_client_log_level": "info",
+
+            "el_extra_params": [],
+
+            "cl_client_type": "lighthouse",
+
+            "cl_client_image": "sigp/lighthouse:latest",
+
+            "cl_client_log_level": "info", 
+
+            "beacon_extra_params": [],
+
+            "validator_extra_params": [],
+
+            "builder_network_params": null
+        }
+    ],
+
+    //  Configuration parameters for the Eth network
+    "network_params": {
+        "network_id": "1881",
+
+        "deposit_contract_address": "0x4242424242424242424242424242424242424242",
+
+        "seconds_per_slot": 3,
+
+        "slots_per_epoch": 32,
+
+        "num_validator_keys_per_node": 64,
+
+        "preregistered_validator_keys_mnemonic": "wash ribbon mansion garlic fog meadow modify alien endorse detect sing lamp glimpse sister guard road crowd chronic friend offer special source reduce resist"
+
+    },
+    
+    "launch_additional_services": true,
+
+    "wait_for_finalization": false,
+
+    "wait_for_verifications": false,
+
+    "verifications_epoch_limit": 5,
+
+    "global_client_log_level": "info"
+}
